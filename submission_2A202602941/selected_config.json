@@ -1,0 +1,33 @@
+{
+  "exp_id": "opt-adam-3e-3",
+  "cfg": {
+    "exp_id": "opt-adam-3e-3",
+    "group": "optimizer",
+    "description": "Higher Adam lr may improve early progress or cause oscillation.",
+    "loss": "ce",
+    "optimizer": "adam",
+    "lr": 0.003,
+    "weight_decay": 0.0,
+    "momentum": 0.9,
+    "batch": 512,
+    "epochs": 20,
+    "hidden": [
+      256,
+      128
+    ],
+    "dropout": 0.0,
+    "init": "he",
+    "clip_norm": null,
+    "precision": "fp32",
+    "seed": 1,
+    "smoke": false,
+    "prediction": "Higher Adam lr may improve early progress or cause oscillation.",
+    "notes": "",
+    "train_eval_samples": 50000,
+    "train_eval_seed": 42,
+    "observation": "val macro-F1=0.872611; delta vs base seed1=+0.017661; |delta| > 2sigma: True"
+  },
+  "val_macro_f1": 0.8726108805311382,
+  "best_epoch": 18,
+  "selection_rule": "max val macro-F1 among successful full-epoch seed-1 runs"
+}

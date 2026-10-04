@@ -1,0 +1,9 @@
+torch>=2.3
+numpy
+pandas
+scikit-learn
+matplotlib
+openpyxl
+nbformat
+nbclient
+ipykernel

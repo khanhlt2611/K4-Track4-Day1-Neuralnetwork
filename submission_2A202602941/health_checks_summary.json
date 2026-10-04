@@ -1,0 +1,73 @@
+{
+  "seed": 1,
+  "parameters": 47879,
+  "shape_trace": [
+    {
+      "layer": "Linear",
+      "shape": [
+        8,
+        256
+      ]
+    },
+    {
+      "layer": "ReLU",
+      "shape": [
+        8,
+        256
+      ]
+    },
+    {
+      "layer": "Dropout",
+      "shape": [
+        8,
+        256
+      ]
+    },
+    {
+      "layer": "Linear",
+      "shape": [
+        8,
+        128
+      ]
+    },
+    {
+      "layer": "ReLU",
+      "shape": [
+        8,
+        128
+      ]
+    },
+    {
+      "layer": "Dropout",
+      "shape": [
+        8,
+        128
+      ]
+    },
+    {
+      "layer": "Linear",
+      "shape": [
+        8,
+        7
+      ]
+    }
+  ],
+  "step0_loss": 2.2690618094036408,
+  "uniform_ce": 1.9459101490553132,
+  "activation_std": [
+    0.709928572177887,
+    0.6975852847099304,
+    0.6183176040649414
+  ],
+  "gradient_norms": {
+    "net.0.weight": 0.9022008776664734,
+    "net.0.bias": 0.39315465092658997,
+    "net.3.weight": 2.77693247795105,
+    "net.3.bias": 0.5370684862136841,
+    "net.6.weight": 2.4162042140960693,
+    "net.6.bias": 0.6395001411437988
+  },
+  "tiny_steps": 12,
+  "tiny_loss": 0.00822475627064705,
+  "tiny_acc": 1.0
+}
